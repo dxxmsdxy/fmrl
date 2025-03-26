@@ -10,8 +10,8 @@ The order of inscriptions matters. State should be interpreted sequentially, whe
 FMRL inscriptions can use the recursive API to query their own UTXO via `/r/self`, then fetch all inscriptions in that UTXO using `/output/<txid>:<vout>`.
 
 **Behavior:**  
-- The inscription **does not depend on parent-child or reinscription links**.
-- It is stateless and self-contained, relying solely on its **local UTXO context**.
+- FMRL **does not depend on parent-child or reinscription links**.
+- It is self-contained, relying solely on its **local UTXO context**.
 - The inscription uses retrieves the list of inscriptions in its UTXO.
 - The inscription's satributes, content, or metadata are used to update or influence logic dynamically (e.g. rendering, configuration, access control).
 
