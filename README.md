@@ -1,8 +1,6 @@
 # ✨ FMRL: Fully-Mutable Runtime Lookup
 
-**FMRL is a UTXO-based state protocol.**
-
-*A minimal standard for dynamic, recursive state in Ordinals inscriptions.*
+**FMRL is a UTXO-based state protocol.** A minimal standard for impermanent and mutable state for Ordinals inscriptions.
 
 **Definition:**  
 Inscriptions and apps implementing the FMRL standard interpret one or more inscriptions in a UTXO as state data.
