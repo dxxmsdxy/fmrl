@@ -4,7 +4,7 @@
 *A minimal standard for dynamic, recursive state in Ordinals inscriptions.*
 
 **Definition:**  
-Inscriptions using the FMRL standard store their state as inscriptions in their UTXO
+Inscriptions using the FMRL standard store their state as inscriptions in their UTXO.
 
 Changes to state should be interpreted sequentially, whether the FMRL inscription uses one, some, or all inscriptions in its UTXO for state.
 
