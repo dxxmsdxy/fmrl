@@ -9,9 +9,8 @@ The order of inscriptions in the UTXO matters. State inscriptions are interprete
 
 FMRL inscriptions can use the recursive API to query their own UTXO via `/r/self`, then fetch all inscriptions in that UTXO using `/output/<txid>:<vout>`.
 
-**Behavior:**  
-- **Does not depend on parent-child or reinscription links**.
-- Self-contained, relying solely on its **local UTXO context**.
+**Behavior:**
+- Dynamic and self-contained, using **local UTXO context** to inform state.
 - Logic retrieves the list of inscriptions in the target UTXO.
 - The UTXO's inscriptions' satributes, content, or metadata are used to determine state in FMRL-enabled inscriptions (e.g. rendering, configuration, access control).
 
