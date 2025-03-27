@@ -5,7 +5,7 @@
 **Definition:**  
 Inscriptions and apps implementing the FMRL standard interpret one or more inscriptions in a UTXO as state data.
 
-The order of inscriptions matters. State inscriptions are interpreted sequentially, whether the FMRL logic uses one, some, or all inscriptions in a UTXO for state.
+The order of inscriptions in the UTXO matters. State inscriptions are interpreted sequentially, whether the FMRL logic uses one, some, or all inscriptions in a UTXO for state.
 
 FMRL inscriptions can use the recursive API to query their own UTXO via `/r/self`, then fetch all inscriptions in that UTXO using `/output/<txid>:<vout>`.
 
