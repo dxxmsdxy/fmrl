@@ -25,7 +25,7 @@ Because of this, users can **safely consolidate multiple dynamic inscriptions in
 Adhering to the standard of adding new state inscriptions sequentially (i.e. adding the new state's inscribed sat immediately after the previous state's inscribed sat) without buffer sats between them, simplifies state management for FMRL-compliant apps and promotes healthier UTXOs on Bitcoin.
 
 **Key Characteristics:**
-- Unlocks mutable and impermanent state via UTXO construction
+- Unlocks mutable and impermanent state via UTXO construction.
 - **No parent-child or reinscription linkage** required.
 - **Soft state** determined by UTXO-local inscription order.
 - Fully **self-contained and transferable** UTXO applications.
